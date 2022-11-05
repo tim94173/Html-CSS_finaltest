@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.fanclub{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: end;
+}
+.fanclub-style{
+    display: flex;
+}
+.link{
+    /* padding-left: 5px; */
+    margin:  5px 0px 5px 0px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.link a{
+    padding: 5px 5px 5px 25px;
+    text-decoration: none;
+}
+.link a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.facebook{
+    background-image:url(images/使用html做網站--2_03.png);
+    border-right: 2px solid lightgray;
+    background-position: 7px 0;
+}
+.twitter{
+    background-image:url(images/使用html做網站--2_05.png);
+    background-position: 8px 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;   
+}
+.menu h2 a{
+    display: block;
+    background-image: url(images/使用html做網站--2_10.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 171px;
+    height: 36px;
+    padding: 10px 10px 10px 30px;
+    /* outline: 1px solid black;  */
+    text-indent: 150%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.selection{
+    display: flex;
+}
+.selection-col4{
+    margin: 21px 0px 10px 0px;
+}
+.selection-col4 a{
+    padding: 18px 20px;
+    font-size: 18px;
+    line-height: 50%;
+    text-decoration: none;
+    color: #00c178;
+}
+.selection-col4 a:hover{
+    border-bottom: 5px solid #00c178;
+}
+.ad{
+    margin: 5px 0px;
+    width: 100%;
+    background-image: url(images/使用html做網站--2_13.png);
+    background-size: 100% 100%;
+    padding: 170px 0px;
+}
+.ad h1{
+    margin-left: 20px;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.course-col4{
+    display: flex;
+    width: 30%;
+}
+.course-col4 a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    box-shadow: 0px 3px 5px gray;
+    border-radius: 10px;
+}
+.course-col4 a:hover{
+    box-shadow: 0px 0px 20px gray;
+}
+.course-col4-info h2{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px
+}
+.course-col4-info p{
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.course-col4-info-ul{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style-type: disc;
+}
+.course-col4-info-ul li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.html5 {
+    background-image: url(images/使用html做網站--2_16.png);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: 50% 50px;
+}
+.rwd{
+    background-image: url(images/使用html做網站--2_18.png);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: 50% 50px;
+}
+.jq{
+    background-image: url(images/使用html做網站--2_20.png);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: 50% 50px;
+}
+.compare{
+    font-size: 20px;
+}
+.compare h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.compare table{
+    margin: 0 auto;
+}
+.compare th{
+    text-align: left;
+    padding: 10px 150px 10px 0px;
+    border-bottom: 2px solid lightblue;
+    background-color: rgb(246, 236, 236);
+}
+.compare td{
+    text-align: left;
+    padding: 10px 150px 10px 0px;
+    border-bottom: 2px solid lightblue;
+}
+.important{
+    color: green;
+}
+.feedback{
+    margin: 50px 0px 0px 0px;
+    padding: 50px;
+    background-image: url(images/使用html做網站--2_26.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.feedback h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    color: white;
+}
+.form-style{
+    display: flex;
+    justify-content: space-around;
+}
+.request{
+    width: 40%;
+}
+.request textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.information{
+    width: 40%;
+    font-size: 20px;
+    position: relative;
+}
+.information h3{
+    color: white;
+    margin-bottom: 5px;
+}
+input{
+    width: 99%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.information-col6{
+    margin-bottom: 65px;
+}
+.submit-style{
+    margin-bottom: 0;
+    position: absolute;
+    width: 60px;
+    cursor: pointer;
+    color: white;
+    background: #00694f;
+    padding: 5px 10px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #00694f;
+}
+.submit-style:hover{
+    background: #024b39;
+    border: 2px solid #024b39;
+}
+.footer{
+    outline: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h2 a{
+    display: block;
+    width: 171px;
+    height: 36px;
+    background-image: url(images/使用html做網站--2_29.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 25px 25px 50px 25px;
+    text-indent: 150%;
+    overflow: hidden;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact h3{
+    margin-top: 10px;
+    
+}
+.contact h3 a{
+    text-decoration: none;
+}
