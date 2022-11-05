@@ -301,3 +301,7 @@ input{
 .contact h3 a{
     text-decoration: none;
 }
+.contact h3 a:hover{
+    color: green;
+    text-decoration: underline;
+}
